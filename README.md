@@ -10,6 +10,7 @@ Executer les commandes :
 - `composer install`
 - `npm install`
 - `touch database.sqlite` (ou le nom qu'on veut lui donner)
+- bien donner un path absolu dans le `.env` à la db
 - `php artisan migrate --seed`
 
 Il n'y a pas de bouton pour se logout mais il suffit de supprimer les cookies
