@@ -14,7 +14,3 @@ Executer les commandes :
 - `php artisan migrate --seed`
 
 Il n'y a pas de bouton pour se logout mais il suffit de supprimer les cookies
-
-PS : Si les events ne marchent pas pour une raison inconnue, run la commande :
-
-- `php artisan event:generate`
