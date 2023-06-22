@@ -24,7 +24,7 @@ class UserSubscribeRequest extends FormRequest
     {
         return [
             'name'     => 'required',
-            'email'    => 'required|email|unique:users',
+            'email'    => 'required|email:strict|unique:users',
             'password' => 'required|string'
         ];
     }

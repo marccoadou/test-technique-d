@@ -33,7 +33,7 @@
                    name="password"
                    type="password"
             >
-            @error('name')
+            @error('password')
             <div class="alert alert-danger" style="color: red">{{ $message }}</div>
             @enderror
         </div>
